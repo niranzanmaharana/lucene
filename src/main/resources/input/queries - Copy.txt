@@ -1,0 +1,22 @@
+select rp.name from ruleproject rp inner join rulepackage rpc on(rp.id = rpc.project) where rpc.project in(67, 68);
+
+SELECT * FROM RULEPROJECT;
+SELECT * FROM RULEARTIFACT;
+SELECT * FROM RULEPACKAGE;
+
+DESC RULEARTIFACT;
+SELECT * FROM RULEARTIFACT;
+
+SELECT RPC.ID FROM RULEPROJECT RPT
+INNER JOIN 
+RULEPACKAGE RPC ON(RPT.ID = RPC.PROJECT) 
+WHERE RPT.ID = 67;
+
+SELECT RPT.ID, RPC.ID, RRT.DOCUMENTATION, RRT.NAME FROM RULEPROJECT RPT
+INNER JOIN 
+RULEPACKAGE RPC ON(RPT.ID = RPC.PROJECT) 
+INNER JOIN 
+RULEARTIFACT RRT ON(RPC.ID = RRT.RULEPACKAGE) 
+WHERE RPT.ID = 67;
+
+select rpt.id as technicalId, rpc.id as packageId, rrt.documentation, rrt.name from ruleproject rpt inner join rulepackage rpc on(rpt.id = rpc.project) inner join ruleartifact rrt on(rpc.id = rrt.rulepackage)

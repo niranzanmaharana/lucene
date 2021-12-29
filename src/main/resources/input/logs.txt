@@ -1,0 +1,29 @@
+2021-12-21 18:18:44.921  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started fetching rule parameters from database
+2021-12-21 18:24:20.297  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed fetched rule parameters from database with size: 783
+2021-12-21 18:24:20.297  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started writing the rule definitions to Lucene
+2021-12-21 18:24:20.574  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : size :: 783
+2021-12-21 18:24:21.745  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed writing the rule definitions to Lucene
+2021-12-21 18:24:21.745  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started saving the parameters
+2021-12-21 18:24:21.949  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Total documents found: 443
+2021-12-21 18:24:21.979  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : parameters: {UD_DUTY=[2615], UD_APPLICABLE=[2632, 3010, 3019, 2629, 2630, 2631], UD_MAX=[3012, 3013, 2599, 2600, 2507, 2508, 2509, 2510], UD_EQUIPMENT=[3021], UD_MIN=[3016, 3017, 3014, 3015], UD_EASTWARD=[2632, 2629, 2630, 2631]}
+2021-12-21 18:24:21.983  INFO 2832 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed saving the parameters
+
+
+2021-12-21 19:25:06.602  INFO 15672 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started fetching rule parameters from database
+2021-12-21 19:29:24.595  INFO 15672 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed fetching rule parameters from database with size: 783
+2021-12-21 19:29:24.595  INFO 15672 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started writing the rule definitions to Lucene
+2021-12-21 19:29:25.096  INFO 15672 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed writing the rule definitions to Lucene
+2021-12-21 19:29:25.096  INFO 15672 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started saving the parameters
+2021-12-21 19:29:25.150  INFO 15672 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : List of documents found: 443
+2021-12-21 19:29:25.165  INFO 15672 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : parameters: {UD_DUTY=[2615], UD_APPLICABLE=[2632, 3010, 3019, 2629, 2630, 2631], UD_MAX=[3012, 3013, 2599, 2600, 2507, 2508, 2509, 2510], UD_EQUIPMENT=[3021], UD_MIN=[3016, 3017, 3014, 3015], UD_EASTWARD=[2632, 2629, 2630, 2631]}
+2021-12-21 19:29:25.165  INFO 15672 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed saving the parameters
+
+
+2021-12-22 07:43:59.644  INFO 10020 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started fetching rule parameters from database
+2021-12-22 07:49:48.182  INFO 10020 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed fetching rule parameters from database with size: 783
+2021-12-22 07:49:48.182  INFO 10020 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started writing the rule definitions to Lucene
+2021-12-22 07:49:49.059  INFO 10020 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed writing the rule definitions to Lucene
+2021-12-22 07:49:49.059  INFO 10020 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Started saving the parameters
+2021-12-22 07:49:49.140  INFO 10020 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : List of documents found: 443
+2021-12-22 07:49:49.150  INFO 10020 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : parameters: {UD_DUTY=[2615], UD_APPLICABLE=[2632, 3010, 3019, 2629, 2630, 2631], UD_MAX=[3012, 3013, 2599, 2600, 2507, 2508, 2509, 2510], UD_EQUIPMENT=[3021], UD_MIN=[3016, 3017, 3014, 3015], UD_EASTWARD=[2632, 2629, 2630, 2631]}
+2021-12-22 07:49:49.150  INFO 10020 --- [  restartedMain] c.s.r.cache.impl.RuleParameterCache      : Completed saving the parameters
